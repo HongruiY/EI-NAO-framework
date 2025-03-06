@@ -1,0 +1,36 @@
+{
+    "dance": {
+        "keywords": ["跳舞", "舞蹈", "跳个舞", "跳支舞"],
+        "action": "dance_function"
+    },
+    "music": {
+        "keywords": ["播放音乐", "音乐", "歌", "唱首歌"],
+        "action": "play_music",
+        "tracks": {
+            "青花瓷": "music/qinghuaci.mp3",
+            "晴天": "music/qingtian.mp3",
+            "如果爱忘了": "music/ruguoaiwangle.mp3",
+            "如果可以": "music/ruguokeyi.mp3",
+            "若是月亮还没来": "music/ruoshiyuelianghaimeilai.mp3",
+            "稻香": "music/daoxiang.mp3",
+            "孤勇者": "music/guyongzhe.mp3",
+            "偏爱": "music/pianai.mp3"
+        }
+    },
+    "grasp": {
+        "keywords": ["抓取"],
+        "locations": {
+            "桌子上": "table",
+            "地上": "ground"
+        },
+        "objects": {
+            "红球": "redball",
+            "黄球": "yellowball",
+            "白球": "whiteball",
+            "粉球": "pinkball"
+        }
+    },
+    "default": {
+        "action": "normal_dialog"
+    }
+}
