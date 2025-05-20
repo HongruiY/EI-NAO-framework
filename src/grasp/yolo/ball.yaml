@@ -1,0 +1,7 @@
+train: /home/zcy/project/src/dataset/images/train  # train images (relative to 'path') 4 images
+val: /home/zcy/project/src/dataset/images/val  # val images (relative to 'path') 4 images
+
+nc: 5
+
+# class names
+names: ['redball', 'yellowball', 'whiteball','pinkball', 'target']

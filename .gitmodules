@@ -1,0 +1,3 @@
+[submodule "qiAudioSocket"]
+	path = qiAudioSocket
+	url = git@github.com:Math-Still/qiAudioSocket.git

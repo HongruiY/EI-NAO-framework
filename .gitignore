@@ -1,0 +1,10 @@
+.DS_Store
+ORB_dep/
+asr/
+models/
+transformers/
+ORB_SLAM3/
+dataset-room4_512_16/
+__pycache__/
+ultralytics/
+qiAudioSocket/
