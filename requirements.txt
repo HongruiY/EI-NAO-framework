@@ -1,0 +1,46 @@
+# NAOqi SDK Dependencies
+qi>=2.8.5  # NAOqi Python SDK for robot control and interaction
+
+# Computer Vision and Machine Learning
+ultralytics>=8.0.0  # YOLOv8 for object detection
+opencv-python>=4.5.3  # OpenCV for image processing
+numpy>=1.19.5  # Numerical computing
+torch>=1.9.0  # PyTorch for deep learning
+torchvision>=0.10.0  # PyTorch vision utilities
+
+# Audio Processing
+sounddevice>=0.4.2  # Audio device interface
+librosa>=0.8.1  # Audio and music processing
+pyaudio>=0.2.11  # Audio I/O
+
+# Zhipu AI Integration
+zhipuai>=1.0.0  # Zhipu AI SDK for LLM integration
+
+# Utilities and Tools
+tqdm>=4.62.2  # Progress bar
+pyyaml>=5.4.1  # YAML file handling
+requests>=2.26.0  # HTTP requests
+python-dotenv>=0.19.0  # Environment variable management
+pillow>=8.3.1  # Image processing
+
+# Testing and Development
+pytest>=6.2.5  # Testing framework
+pytest-cov>=2.12.1  # Test coverage
+black>=21.7b0  # Code formatting
+flake8>=3.9.2  # Code linting
+
+# Documentation
+sphinx>=4.1.2  # Documentation generator
+sphinx-rtd-theme>=0.5.2  # ReadTheDocs theme
+
+# System Dependencies (to be installed at system level)
+# - python3-pip: Python package manager
+# - python3-dev: Python development headers
+# - build-essential: Basic build tools
+# - cmake: Build system
+# - git: Version control
+# - libopencv-dev: OpenCV development files
+# - libboost-all-dev: Boost C++ libraries
+# - libeigen3-dev: Eigen linear algebra library
+# - libssl-dev: OpenSSL development files
+# - libffi-dev: Foreign Function Interface library 
