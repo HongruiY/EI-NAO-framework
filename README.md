@@ -12,11 +12,15 @@ As a **Qi3 framework-powered embodied intelligence solution** implemented on the
 
 ### Dependencies
 
-Pending update
+Linux/Windows-wsl/MacOS
+Python3.7+
+Libqi-Python
 
 ### From Source
 
-Pending update
+pip3 install -r requirements.txt
+
+Run audioprocessing.py on the robot
 
 ### Design Requirements
 
@@ -164,10 +168,6 @@ Edge Deployment: Explore ONNX runtime optimization for both models
 ### Real-time Guarantee
 
 ### Safety Design
-
-### Interface Design
-
-Under development
 
 ## Final Project Deliverables
 
