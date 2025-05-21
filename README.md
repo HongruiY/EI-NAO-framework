@@ -4,6 +4,8 @@
 
 With the acceleration of global aging trends (WHO predicts 22% of the population will be aged 60+ by 2050), traditional service robots exhibit significant limitations in interaction flexibility, environmental adaptability, and dynamic responsiveness. This project proposes an **embodied intelligence**-driven companion robot system that seamlessly integrates **Large Language Models (LLMs)** with multimodal interaction frameworks, designed to achieve human-like naturalness and cognitive intelligence in HRI (Human-Robot Interaction) for personalized elderly companionship services.
 
+The system leverages ChatGPT-4 and Tongyi's Qwen as standalone AI cores for different operational scenarios. ChatGPT-4 primarily handles open-domain conversational reasoning, while Qwen specializes in context-aware Chinese language processing, enabling complementary cognitive capabilities without model fusion.
+
 As a **Qi3 framework-powered embodied intelligence solution** implemented on the NAO humanoid robot, this project utilizes its integrated motionControl, vision, and auditory perception modules to demonstrate embodied intelligence applications in healthcare and educational fields. The research not only drives robotics innovation but also offers empirical verification for interdisciplinary systems engineering paradigms (hardware-algorithm co-design).
 
 ## Installation
@@ -108,7 +110,13 @@ graph TB
     E --> G[Voice Feedback]
     E --> H[Status Display]
 ```
-
+```mermaid
+flowchart TD  
+    A[Speech] --> B{ChatGPT-4\nOpen-domain Dialog}  
+    C[Vision] --> D{Qwen-VL\nScene Parsing}  
+    B --> E[Action Planning]  
+    D --> E  
+```
 ## Process
 ### Implementation Framework
 
@@ -142,6 +150,14 @@ graph TD
     C --> E[Disable Non-critical Modules]
     D --> F[Release ASR Models]
 ```
+
+Development Roadmap
+AI Evolution Strategy:
+
+ChatGPT-4 Specialization: Expand plugin system integration for NAO-specific APIs
+Qwen Optimization: Develop lightweight variants for real-time Chinese ASR-NLU pipelines
+Ethical AI: Implement model-agnostic content safety filters
+Edge Deployment: Explore ONNX runtime optimization for both models
 
 ### Experimental Plan
 
