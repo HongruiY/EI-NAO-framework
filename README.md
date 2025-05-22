@@ -25,7 +25,7 @@ Run audioprocessing.py on the robot
 ### Design Requirements
 
 #### 0. Robot Architecture
-
+![](./assets/1.jpg)
 ```mermaid
 graph TD
     A[Perception Layer] --> B{Data Fusion}
@@ -40,6 +40,7 @@ graph TD
 ```
 
 #### 1. Motion Module
+![](./assets/2.jpg)
 
 ```mermaid
 graph TD
@@ -53,6 +54,7 @@ graph TD
 ---
 
 #### 2. Vision Module (ORB-SLAM3)
+![](./assets/3.jpg)
 
 ```mermaid
 graph LR
@@ -64,6 +66,7 @@ graph LR
 ```
 
 #### 3. Auditory Module (FastASR)
+![](./assets/4.jpg)
 
 ```mermaid
 graph LR
@@ -76,7 +79,8 @@ graph LR
 
 ---
 
-#### 4. Navigation Module (ROS2 Navigation)
+#### 4. Navigation Module
+![](./assets/5.jpg)
 
 ```mermaid
 graph LR
@@ -90,6 +94,7 @@ graph LR
 ---
 
 #### 5. Code Generation Module (Core)
+![](./assets/6.jpg)
 
 ```mermaid
 graph LR
@@ -103,6 +108,7 @@ graph LR
 ---
 
 #### 6. Multimodal Interaction Module
+![](./assets/7.jpg)
 
 ```mermaid
 graph TB
@@ -114,6 +120,8 @@ graph TB
     E --> G[Voice Feedback]
     E --> H[Status Display]
 ```
+![](./assets/8.jpg)
+
 ```mermaid
 flowchart TD  
     A[Speech] --> B{ChatGPT-4\nOpen-domain Dialog}  
@@ -134,6 +142,7 @@ flowchart TD
    - Emotion recognition (voice spectrum + facial expression analysis)
 
 3. **System Integration**:
+![](./assets/9.jpg)
 
    ```mermaid
    sequenceDiagram
@@ -145,6 +154,7 @@ flowchart TD
    ```
 
 4. **Resource Management**:
+![](./assets/10.jpg)
 
 ```mermaid
 graph TD
