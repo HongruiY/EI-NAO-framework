@@ -168,10 +168,23 @@ graph TD
 Development Roadmap
 AI Evolution Strategy:
 
-ChatGPT-4 Specialization: Expand plugin system integration for NAO-specific APIs
-Qwen Optimization: Develop lightweight variants for real-time Chinese ASR-NLU pipelines
-Ethical AI: Implement model-agnostic content safety filters
-Edge Deployment: Explore ONNX runtime optimization for both models
+ChatGPT-o3 and Qwen3.5 large language models were used, and prompt optimization was carried out for the specific api system of nao. The following is a comparison of the technical parameters of ChatGPT-3.5Turbo and Qwen3.5:
+
+| Parameter/Feature       | ChatGPT-3.5 Turbo (OpenAI)           | Qwen3.5 (Alibaba Tongyi Qianwen)     |
+|-------------------------|--------------------------------------|--------------------------------------|
+| **Model Architecture**  | Improved GPT-3.5 Transformer decoder | Custom MoE (Mixture of Experts)      |
+| **Parameter Count**     | ~20B–30B (not fully disclosed)       | Base: 14B, Expert-combined: 200B+    |
+| **Training Data**       | Multilingual (cutoff: Sep 2021)      | Chinese-English focused              |
+| **Context Window**      | 4k tokens (16k available)            | 32k tokens                           |
+| **Inference Speed**     | ~300–500ms (API latency)             | ~20% faster in Chinese               |
+| **Language Strength**   | English, multi-turn chat             | Chinese (idioms, poetry)             |
+| **Multimodal Support**  | Via separate APIs (e.g., DALL·E)     | Vision/speech integration possible   |
+| **Domain Adaptation**   | Needs prompt engineering             | Pre-fine-tuned versions available    |
+| **Open-Source**         | No                                   | Partial (e.g., Qwen-7B)              |
+| **Safety**             | RLHF + content filtering             | Compliance filters                   |
+| **Hardware**           | Cloud-based                          | Edge-device compatible               |
+| **Xiao NAO Usage**     | General dialogue, English            | Chinese NLP, technical terms        |
+
 
 ### Experimental Plan
 
